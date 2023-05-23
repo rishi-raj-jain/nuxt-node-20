@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "edgio:dev": "edg dev",
+    "edgio:build": "edg build",
+    "edgio:production": "edg run -p",
+    "edgio:deploy": "edg deploy"
+  },
+  "devDependencies": {
+    "@edgio/cli": "^7.0.14",
+    "@edgio/core": "^7.0.14",
+    "@edgio/nuxt-nitro": "^7.0.14",
+    "@edgio/prefetch": "^7.0.14",
+    "@types/node": "^18",
+    "nuxt": "^3.5.1"
+  }
+}
